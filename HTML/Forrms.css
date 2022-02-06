@@ -1,0 +1,17 @@
+
+/* Using ID selector in external css */
+#h2Title{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+}
+
+/* Universal selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Using Class Selector */
+.mandatory_fields{
+    font-weight: bold;
+}

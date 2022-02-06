@@ -2,14 +2,21 @@
 
 <head>
     <title>Signup Form</title>
+    <link rel="stylesheet" href="Forrms.css">
+    <style>
+        /* This is using ID selector. */
+        /* #h2Title {
+            font-size: 50px;
+        } */
+    </style>
 </head>
 
 <body>
-    <h2 name="h2Title">SignUp Form</h2>
+    <h2 id="h2Title" style="color: brown;">SignUp Form</h2>
     <form>
         <!-- Input is self closing tag -->
         <div>
-            <label name="lblEmail" for="inputEmail">Email Address</label>
+            <label class="mandatory_fields" name="lblEmail" for="inputEmail">Email Address</label>
             <input type="email" name="inputEmail">
         </div>
         <div>
@@ -17,11 +24,11 @@
             <input type="text" name="inputName">
         </div>
         <div>
-            <label name="lblUserName" for="inputUserName">UserName</label>
+            <label class="mandatory_fields" name="lblUserName" for="inputUserName">UserName</label>
             <input type="text" name="inputUserName">
         </div>
         <div>
-            <label name="lblPassword" for="inputPassword">Password</label>
+            <label class="mandatory_fields" name="lblPassword" for="inputPassword">Password</label>
             <input type="password" name="inputPassword">
         </div>
         <div>
