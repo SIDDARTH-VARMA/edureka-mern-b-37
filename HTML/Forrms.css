@@ -9,6 +9,9 @@
 .title{
     background-color: lightgrey;
     border: 1px groove lightslategrey;
+    border-bottom: 5px dashed black;
+    border-radius: 5px;
+    border-color: cadetblue;
     padding: 10px;
     padding-left: 0;
     margin: 20px;
