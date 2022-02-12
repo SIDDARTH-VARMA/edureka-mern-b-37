@@ -7,10 +7,10 @@
     background-color: coral;
     height: 600px;
     /* Aligns flexibile items horizontally */
-    justify-content: end;
+    justify-content: center;
 
     /* Aligns flexibile items vertically */
-    align-items: start;
+    align-items: center;
 }
 
 .child{
@@ -28,5 +28,15 @@
 
 .hide{
     /* display: none; */
-    visibility: hidden;
+    /* visibility: hidden; */
+}
+
+.position{
+    /* Static is default value of position for every element in html */
+    position: static;
+    /* When position is static below properties won't work */
+    left: 50px;
+    top: 40px;
+    right: 20px;
+    bottom: 20px;
 }

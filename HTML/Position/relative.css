@@ -1,5 +1,6 @@
 
 .parent{
+    position: relative;
     padding: 4%;
     border: 1px solid green;
     /* Create a flexible container which makes all items flexible */
@@ -7,10 +8,10 @@
     background-color: coral;
     height: 600px;
     /* Aligns flexibile items horizontally */
-    justify-content: end;
+    justify-content: center;
 
     /* Aligns flexibile items vertically */
-    align-items: start;
+    align-items: center;
 }
 
 .child{
@@ -28,5 +29,17 @@
 
 .hide{
     /* display: none; */
-    visibility: hidden;
+    /* visibility: hidden; */
+}
+
+.position{
+    /* Relative position is relative to element itself.*/
+    /* Element remembers its original position even after 
+    being pulled out of default flow of dom */
+    
+    position: relative;
+
+    /* left, top from original position of element */
+    left: 50px;
+    top: 40px;
 }
