@@ -3,18 +3,18 @@ body{
 }
 
 .parent{
-    position: relative;
-    padding: 4%;
+    /* padding: 4%; */
     border: 1px solid green;
     /* Create a flexible container which makes all items flexible */
     display: flex;
     background-color: coral;
     height: 600px;
     /* Aligns flexibile items horizontally */
-    justify-content: center;
+    justify-content: start;
 
     /* Aligns flexibile items vertically */
-    align-items: center;
+    align-items: start;
+    height: 3000px;
 }
 
 .child{
@@ -40,9 +40,9 @@ body{
     /* Element remembers its original position even after 
     being pulled out of default flow of dom */
     
-    position: absolute;
+    position: sticky;
     
     /* left, top from original position of element */
-    left: 0px;
-    top: 0px;
+    left: 10px;
+    top: 10px;
 }

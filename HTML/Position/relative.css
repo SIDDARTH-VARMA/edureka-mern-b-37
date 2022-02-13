@@ -1,7 +1,7 @@
 
 .parent{
-    position: relative;
     padding: 4%;
+    position: relative;
     border: 1px solid green;
     /* Create a flexible container which makes all items flexible */
     display: flex;
@@ -38,8 +38,8 @@
     being pulled out of default flow of dom */
     
     position: relative;
-
+    
     /* left, top from original position of element */
-    left: 50px;
+    left: 100px;
     top: 40px;
 }
