@@ -21,7 +21,7 @@
             </div>
             <div class="mb-3">
                 <label class="form-label" name="lblUserName" for="inputUserName">UserName</label>
-                <input class="form-control" type="text" name="inputUserName">
+                <input required class="form-control" type="text" name="inputUserName">
             </div>
             <div class="mb-3">
                 <label class="form-label" name="lblPassword" for="inputPassword">Password</label>
@@ -40,18 +40,9 @@
                 <textarea class="form-control" name="txtAddress" id="txtAddress" cols="30" rows="4"></textarea>
             </div>
             <div class="mb-3">
-                <label class="form-label" for="inputGender">Gender</label>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gender">
-                    <label class="form-check-label">Male</label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gender">
-                    <label class="form-check-label">FeMale</label>
-                </div>
-
+                <label for="inputGender">Gender</label>
+                <input type="radio" name="gender"> <label>Male</label>
+                <input type="radio" name="gender"> <label>FeMale</label>
             </div>
             <div class="mb-3">
                 <label class="form-label" for="inputFile">Upload Resume</label>
@@ -59,7 +50,7 @@
             </div>
             <div class="mb-3">
                 <label class="form-label" for="ddlCountry">Country</label>
-                <select class="form-select" name="ddlCountry" id="ddlCountry">
+                <select name="ddlCountry" id="ddlCountry">
                     <option value="0">Select</option>
                     <option value="1">India</option>
                     <option value="2">UK</option>
@@ -67,14 +58,10 @@
                 </select>
             </div>
             <div class="mb-3">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="inputterms">
-                    <label class="form-check-label" for="Inputterms">Terms & Conditions</label>
-
-                </div>
+                <input type="checkbox" name="inputterms"> <label for="Inputterms">Terms & Conditions</label>
             </div>
 
-            <input class="btn btn-success" type="submit">
+            <input type="submit">
         </form>
     </div>
 </body>
