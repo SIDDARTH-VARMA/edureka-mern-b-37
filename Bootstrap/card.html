@@ -11,11 +11,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        .card {
+            margin: 10px;
+            box-shadow: 4px 4px 0 0 rgb(0 0 0 / 40%);
+        }
+    </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -57,11 +64,23 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container" style="display: flex; flex-direction: row;">
 
         <!-- card is main class -->
         <!-- card body-> content of card -->
         <!-- card-title-> to provide title for card. -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Eloquent JavaScript</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <p class="card-text">Price: 200</p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+        </div>
         <div class="card" style="width: 18rem;">
             <img src="https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg"
                 class="card-img-top" alt="...">
