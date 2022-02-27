@@ -2,3 +2,15 @@
 .border{
     border: 1px solid lightblue;
 }
+
+.bg-dark{
+    background-color: darkblue !important;
+}
+
+.btn{
+    font-weight: bolder;
+}
+
+.btn-success{
+    background-color: aquamarine;
+}
