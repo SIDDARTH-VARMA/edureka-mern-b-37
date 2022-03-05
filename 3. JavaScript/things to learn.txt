@@ -1,0 +1,7 @@
+
+1. Please pay attention.
+2. Save Files.
+3. Path in terminal should be correct.
+4. Naming conventions. File names should always be in small
+     and no space.
+5. Don't do blind coding.
