@@ -12,5 +12,6 @@ console.log(myname);
 console.log(num);
 console.log(num2);
 
-const marks=100;
+let marks=100;
+marks = 200;
 console.log(marks);
