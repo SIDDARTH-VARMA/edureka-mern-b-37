@@ -5,11 +5,12 @@
 // How to declare a constant in JS ?
 
 let num = 10;
-num = 20;
+var num2 = 20;
 
 let myname="My name";
 console.log(myname);
 console.log(num);
+console.log(num2);
 
 const marks=100;
 console.log(marks);
