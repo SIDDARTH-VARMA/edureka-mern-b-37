@@ -33,12 +33,12 @@ x = function print(){
 }
 console.log(typeof x);
 
-x = new Date();
+x = new Date(); // creating instance of Date Type.
 console.log(x);
 console.log(typeof x);
 
 // operator to fins out instance of object.
-console.log(x instanceof Date);
+console.log(x instanceof Date); // true
 
 x = null; // defined with no data.
 console.log(typeof x); // object
