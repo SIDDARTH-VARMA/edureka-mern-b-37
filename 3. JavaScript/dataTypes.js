@@ -32,6 +32,7 @@ x = function print(){
     console.log("This is a function");
 }
 console.log(typeof x);
+x();
 
 x = new Date(); // creating instance of Date Type.
 console.log(x);
