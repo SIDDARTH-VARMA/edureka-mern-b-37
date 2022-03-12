@@ -1,7 +1,7 @@
 // combination of alpha&numeric&speicalchars
 // special chars-@#$%&)()
 
-let password = "QweT&@#3691";
+const password = "QweT&@#3691";
 
 console.log(typeof password);
 

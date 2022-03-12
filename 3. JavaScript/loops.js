@@ -22,7 +22,7 @@ const index = str.length-1; // 17
 
 let reversedString="";
 
-for(let i=index; i>=0; i--){ // j, ja, jar, jare, jaree, jareeh....
+for(let i=index; i>=0;){ // j, ja, jar, jare, jaree, jareeh....
     reversedString=reversedString.concat(str[i]);
 }
 console.log(reversedString);
