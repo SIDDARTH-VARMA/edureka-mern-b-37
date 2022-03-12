@@ -35,3 +35,19 @@ console.log(arrayOfNumbers);
 
 // 7. How to get size of array.
 console.log(arrayOfNumbers.length);
+
+// 8. How to get part of an array.
+
+const subArray = arrayOfNumbers.slice(1, 4);
+console.log(subArray);
+
+// 9. How to find an element in array based on condition.
+// [10, 20, 43, 21, 98, 54]
+const result = arrayOfNumbers.findIndex(e=> e==43);
+console.log(result);
+
+// 10. How to find multiple elements in array based on a condition
+// [10, 20, 43, 21, 98, 54]
+// 43, 98, 54
+const numbersGreaterThan40 = arrayOfNumbers.filter(e=> e>40);
+console.log(numbersGreaterThan40);
