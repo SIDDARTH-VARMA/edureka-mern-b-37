@@ -15,4 +15,5 @@ console.log(usCrs);
 // indianCars.concat(usCrs);
 // const result = [indianCars+usCrs]; // ['Tata,Mahindra,MarutiTesla,Ferrari,Ford']
 const result = [...indianCars, ...usCrs]; // [ 'Tata', 'Mahindra', 'Maruti', 'Tesla', 'Ferrari', 'Ford' ]
-console.log(result);
+const result2 = [...result, "KIA"];
+console.log(result2);
