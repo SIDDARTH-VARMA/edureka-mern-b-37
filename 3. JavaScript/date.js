@@ -5,8 +5,8 @@ const currentDate = new Date();
 console.log(currentDate);
 
 // 2. Date formats in JavaScaript.
-console.log(currentDate.toDateString()); // date
-console.log(currentDate.toTimeString()); // time
+console.log(currentDate.toDateString()); // date Sun Mar 13 2022
+console.log(currentDate.toTimeString()); // time 18:44:38 GMT+0530 (India Standard Time)
 
 // 3. How to get year from date.
 console.log(currentDate.getFullYear());
