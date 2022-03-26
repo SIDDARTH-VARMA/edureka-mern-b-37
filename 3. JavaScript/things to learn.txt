@@ -5,3 +5,16 @@
 4. Naming conventions. File names should always be in small
      and no space.
 5. Don't do blind coding.
+
+
+=> DOM Manipulation Learning.
+
+1. How to Read from Text Box. - Done.
+     Read name and username and update it in a label.
+2. How to update a label. - Done.
+3. How to read from a dropdown.
+4. How to read radio button.
+5. How to handle button click.
+6. How to update background color.
+7. How to validate password.
+8. How to make fields required.
