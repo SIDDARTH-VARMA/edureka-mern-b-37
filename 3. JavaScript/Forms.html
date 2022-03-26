@@ -28,7 +28,8 @@
             </div>
             <div class="mb-3">
                 <label class="form-label" name="lblPassword" for="inputPassword">Password</label>
-                <input class="form-control" type="password" name="inputPassword">
+                <input class="form-control" type="password" id="inputPassword" oninput="handlePasswordChange()">
+                <label id="error" style="color: red;"></label>
             </div>
             <div class="mb-3">
                 <label class="form-label" name="lblDOB" for="inputDOB">Date of Birth</label>
