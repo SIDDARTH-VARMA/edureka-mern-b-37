@@ -13,8 +13,8 @@
      Read name and username and update it in a label.
 2. How to update a label. - Done.
 3. How to read from a dropdown. - Done
-4. How to read radio button.
-5. How to handle button click.
-6. How to update background color.
+4. How to read radio button. - Done.
+5. How to handle button click. - Done.
+6. How to update background color. - Done.
 7. How to validate password.
 8. How to make fields required.

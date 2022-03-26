@@ -11,7 +11,7 @@
 <body>
     <h2>SignUp Form</h2>
     <div class="container">
-        <form>
+        <form id="signupForm">
             <div class="mb-3">
                 <label class="form-label" name="lblEmail" for="inputEmail">Email Address</label>
                 <input class="form-control" type="email" name="inputEmail">
@@ -79,7 +79,7 @@
                 </div>
             </div>
 
-            <input class="btn btn-success" type="submit">
+            <input class="btn btn-success" type="button" value="Submit" onclick="handleButtonClick()">
         </form>
     </div>
 </body>

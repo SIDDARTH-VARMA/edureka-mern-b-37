@@ -32,3 +32,8 @@ function handleGenderChange(){
     const isFeMale = genderElements[1].checked;
     document.getElementById("lblGenderField").innerText=isMale ? "Male" : "Female";
 }
+
+function handleButtonClick(){
+    document.getElementById("signupForm").style.backgroundColor="lightgreen";
+    alert("Form is submitted");
+}
