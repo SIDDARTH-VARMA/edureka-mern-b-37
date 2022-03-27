@@ -1,0 +1,26 @@
+
+1. What is Asynchronous Programming?
+ - Asynchronous programming refers to tasks performed by 
+ programs results of which is now known immediately..
+
+2. What is NodeJS?
+    Runtime environment for JS.
+3. How JavaScript and NodeJS works?
+
+4. What is EventLoop
+    Loop which keeps running on ticks and takes new requests.
+5. Single threaded vs Multithreaded programming.
+     - Done.
+5.1 Arrow functions.
+6. CallBacks.
+7. Promises.
+8. async/await.
+
+Why it is important to learn async js before nodejs.
+=> Take requests from client. 
+=> send response to client.
+=> call file systems.
+=> call databses like mongodb.
+=> get/update data from/to mongodb.
+
+https://1drv.ms/u/s!AtyWtWs8uElmuEVsJ8YXpOMQpIHU

@@ -41,7 +41,12 @@ function handleButtonClick(){
 function handlePasswordChange(){
     // 1. Reset error
     document.getElementById("error").innerText="";
-    
+    const schars = "!@#$%^&*()";
+    for(let i=0; i<password.length; i++){
+        if(schars.includes(password[i])){
+
+        }
+    }
     // 2. read Password
     const password = document.getElementById("inputPassword").value;
     // 1. Should be of 6-10 characters.
@@ -60,3 +65,20 @@ function handlePasswordChange(){
    
     document.getElementById("error").innerText=error;
 }
+
+
+class RestaurantManager{
+
+    rsetaurants=[{"name":"X", city:"M"}]
+
+    getData(){
+
+    }
+
+    filterByCity(city){
+        this.rsetaurants.filter(r=> r.city==city);
+    }
+}
+
+const res = new Restaurant();
+res.getData();
