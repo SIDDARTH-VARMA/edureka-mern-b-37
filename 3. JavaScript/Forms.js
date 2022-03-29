@@ -65,20 +65,3 @@ function handlePasswordChange(){
    
     document.getElementById("error").innerText=error;
 }
-
-
-class RestaurantManager{
-
-    rsetaurants=[{"name":"X", city:"M"}]
-
-    getData(){
-
-    }
-
-    filterByCity(city){
-        this.rsetaurants.filter(r=> r.city==city);
-    }
-}
-
-const res = new Restaurant();
-res.getData();
