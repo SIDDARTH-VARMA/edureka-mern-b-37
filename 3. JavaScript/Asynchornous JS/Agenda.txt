@@ -16,6 +16,9 @@
 5.1 Arrow functions.
 
 6. CallBacks.
+    1. Callback hell.
+    2. Loss of control.
+    3. Lack of standard error handling.
 7. Promises.
 8. async/await.
 

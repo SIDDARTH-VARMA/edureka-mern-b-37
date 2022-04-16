@@ -1,16 +1,34 @@
 
-function writeFile(cb){
+function writeFile(cb, cb2, err){
    setTimeout(()=>{
        // Data is being written;
        console.log("Writing data");
-       cb();
-   }, 10000);
+       cb(cb2);
+       err("Error");
+   }, 2000);
 }
 //Callback -> a function passed as paramater to asynchronous function
 // which is executed by asynchronous function after async tasks are completed.
 
-const ack = function(){
-    console.log("Data is written");
+function readFile(){
+    setTimeout(()=>{
+        // Data is being written;
+        console.log("Reading data");
+        printData();
+    }, 2000);
 }
 
-writeFile(ack); // I/O operation
+function printData(){
+    console.log("Printing data");
+}
+
+function ack(cb){
+    console.log("Data is written");
+    cb();
+}
+
+function handleError(err){
+    console.log(err);
+}
+
+writeFile(ack, readFile, handleError); // I/O operation
