@@ -11,7 +11,10 @@
     Loop which keeps running on ticks and takes new requests.
 5. Single threaded vs Multithreaded programming.
      - Done.
+
+16-17 March.
 5.1 Arrow functions.
+
 6. CallBacks.
 7. Promises.
 8. async/await.
