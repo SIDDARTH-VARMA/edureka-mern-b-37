@@ -1,0 +1,23 @@
+https://1drv.ms/u/s!AtyWtWs8uElmuEVsJ8YXpOMQpIHU
+
+
+
+Functionalities
+
+
+1. Home Page to display all restaurants.
+2. Search restaurants by location.
+3. Filter restaurant by price.
+4. Ordering foods.
+5. User registration and login.
+6. Restaurant CRUD.
+7. Menu CRUD.
+8. Add to Cart.
+
+
+Concepts:
+    1. Server Side. - Done.
+    2. HTTP. - Done.
+    3. REST API. - Done.
+    4. API Methods. - Done.
+
