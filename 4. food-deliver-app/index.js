@@ -3,10 +3,14 @@
 
 const express = require("express");
 const userRoutes = require("./src/user/routes/user");
+const mongodb = require("./config/mongodb");
 
 // STep 2: Create server and listen
 const server = express();
 server.listen(4400);
+
+// Connect to database.
+mongodb.localconnect();
 
 // Configure routes
 

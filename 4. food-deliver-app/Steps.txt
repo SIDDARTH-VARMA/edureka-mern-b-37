@@ -3,7 +3,9 @@
 // 1. Create Server. - Done(NodeJS) / ExpressJS - Done.
 // 2. Create application structure. - Done.
 // 3. Configure routes/endpoints for APIs.
-// 4. Create Controllers.
-// 5. Create database.
-// 6. Connect database.
-// 7. Create Repository.
+// 4. Create Controllers. - Done
+// 5. Create database. ? - Done.
+// 6. Connect database. ?
+// 7. Create Repository. ?
+8. Use Repository in Controller for registration and login.
+9. JWT based authentication.
