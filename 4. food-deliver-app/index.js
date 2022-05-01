@@ -4,6 +4,7 @@
 const express = require("express");
 const userRoutes = require("./src/user/routes/user");
 const mongodb = require("./config/mongodb");
+const bodyParser= require("body-parser");
 
 // STep 2: Create server and listen
 const server = express();
@@ -13,7 +14,7 @@ server.listen(4400);
 mongodb.localconnect();
 
 // Configure routes
-
+server.use(bodyParser.json());
 server.use("/api/user",userRoutes);
 
 // Step3: Create default response.
