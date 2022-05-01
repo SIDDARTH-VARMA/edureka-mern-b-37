@@ -3,6 +3,7 @@
 
 const express = require("express");
 const userRoutes = require("./src/user/routes/user");
+const restaurantRoutes = require("./src/restaurant/routes/restaurant");
 const mongodb = require("./config/mongodb");
 const bodyParser= require("body-parser");
 
@@ -16,6 +17,7 @@ mongodb.localconnect();
 // Configure routes
 server.use(bodyParser.json());
 server.use("/api/user",userRoutes);
+server.use("/api/restaurant", restaurantRoutes);
 
 // Step3: Create default response.
 server.get("/", (req, res)=>{
