@@ -5,8 +5,8 @@ https://1drv.ms/u/s!AtyWtWs8uElmuEVsJ8YXpOMQpIHU
 Functionalities
 
 
-1. Home Page to display all restaurants.
-2. Search restaurants by location.
+1. Home Page to display all restaurants. - Done
+2. Search restaurants by location. - Done
 3. Filter restaurant by price.
 4. Ordering foods.
 5. User registration and login.
@@ -21,3 +21,17 @@ Concepts:
     3. REST API. - Done.
     4. API Methods. - Done.
 
+
+1. How to secure APIs.
+-> why to secure apis.
+
+    a. Creating auth tokens.
+    b. validating auth tokens.
+    c. creating secure routes.
+    d. using custom middlewares.
+
+Client <---> Server. => SessionLess architecture.
+1. Provide a token to client when client logs in.
+    1.1 Create secure apis.
+    1.2 Validate token before allowing access to secure apis.
+2. CLient needs to pass token to access secure api.

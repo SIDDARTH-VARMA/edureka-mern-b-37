@@ -2,7 +2,7 @@
 const mongodbConfig= require("../../../config/mongodb");
 
 
-module.exports.add = async (user)=>{
+exports.add = async (user)=>{
     const collection = mongodbConfig.getCollection("User");
     try{
         await collection.insertOne({name:user.name, email: user.email, password: user.password});
@@ -11,4 +11,15 @@ module.exports.add = async (user)=>{
         return false;
     }
     return true;
+}
+
+exports.getByEmail = async (email)=>{
+    const collection = mongodbConfig.getCollection("User");
+    try{
+       const user = await collection.findOne({email});
+       return user;
+    }catch(err){
+        console.log(err);
+        return null;
+    }
 }
