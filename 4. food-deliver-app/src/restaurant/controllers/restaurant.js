@@ -20,3 +20,13 @@ exports.get = async (req, res)=>{
         return res.send(results);
     }
 }
+
+exports.getByLocation = async (req, res)=>{
+
+    const results = await repo.getByLocation(req.params.city);
+    if(results==-1){
+        return res.send("Failed to get records");
+    }else{
+        return res.send(results);
+    }
+}
