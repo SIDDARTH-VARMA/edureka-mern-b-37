@@ -1,0 +1,21 @@
+
+Interview Questions for NodeJS, JavaScript
+
+1. What is EventLoop and how it works?
+2. WHat is single-threaded programming and how it handles concurrency.
+3. Is NodeJS faster than other programming languages?
+4. difference between ==, ===.
+5. difference between var,let,const.
+6. how to update css of a control using JavaScript.
+7. what is a promise and how it works.
+8. Is Promise better than callbacks, why ?
+9. what is express?
+10. difference between nosql and sql databases.
+11. spread & res operator.
+12. how to do crud in mongodb.
+13. what is middleware and how it works in NodeJS.
+14. what is async/await.
+15. setTimeOut(0) question.
+16. what is core module, exmaples of core module.
+17. package management.
+18. what is an API.
