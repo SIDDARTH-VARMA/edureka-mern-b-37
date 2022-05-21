@@ -1,10 +1,11 @@
 
 function validateCard(card){
     const newPromise = new Promise((resolve, reject)=>{
+        var x = 200;
         if(card){
            setTimeout(()=>{
             // api calls.   
-            resolve(200, {})}
+            resolve(x, {})}
             
             , 2000);
         }else{
