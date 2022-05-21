@@ -10,6 +10,26 @@ exports.add = async (restaurant)=>{
     return null;
 }
 
+exports.update = async (model)=>{
+    try{
+        const result = await Restaurant.findOneAndUpdate(restaurant);
+        return result;
+    }catch(err){
+        console.log(err);
+    }
+    return null;
+}
+
+exports.delete = async (id)=>{
+    try{
+        const result = await Restaurant.findByIdAndDelete(id);
+        return result;
+    }catch(err){
+        console.log(err);
+    }
+    return null;
+}
+
 exports.get = async (page)=>{
     console.log(page);
     console.log((page-1)*5);
