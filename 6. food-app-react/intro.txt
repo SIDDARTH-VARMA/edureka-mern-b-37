@@ -1,0 +1,37 @@
+
+1. What is react ?
+    - JS Library.
+2. Why we need it ?
+    - To easily create modern web apps using many inbuilt features.
+3. How to create apps using react ?
+    using command "create-react-app"
+
+4. npx. -> used to execute/run a package on your machine.
+    1. to create app.
+            npx create-react-app food-app
+    2. to run app.
+            npm start
+
+5. What is a component.
+    unit/peice of code to represent part of your application.
+    easy to mantain/update/make changes.
+    reusable.
+    easy to test.
+    a javascript function which returns html.
+    components use JSX.
+
+    5.1 How to create compoent.
+    5.2 how to use bootstrap.
+    5.3 How to render component inside another component.
+
+6. What is JSX.
+    JavaScript Extension.
+    helps you to work with html and javascript together.
+
+7. What is SPA.
+
+8. Hwo to call apis.
+
+9. How to pass data from one component to another.
+10. How to pass events from one compoent to another.
+11. props/states.
