@@ -18,7 +18,7 @@ mongodb.localconnect();
 // Configure routes
 server.use(bodyParser.json());
 server.use("/api/user",userRoutes);
-server.use("/api/restaurant", auth, restaurantRoutes);
+server.use("/api/restaurant", restaurantRoutes);
 
 // Step3: Create default response.
 server.get("/", (req, res)=>{
