@@ -7,10 +7,12 @@ const restaurantRoutes = require("./src/restaurant/routes/restaurant");
 const mongodb = require("./config/mongodb");
 const bodyParser= require("body-parser");
 const auth = require("./src/middlewares/auth");
+const cors = require("cors");
 
 // STep 2: Create server and listen
 const server = express();
 server.listen(4400);
+server.use(cors());
 
 // Connect to database.
 mongodb.localconnect();
