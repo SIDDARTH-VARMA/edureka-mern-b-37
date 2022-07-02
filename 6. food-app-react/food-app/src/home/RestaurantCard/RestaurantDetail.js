@@ -2,19 +2,16 @@ import "./RestaurantDetail.css";
 
 import {useParams} from "react-router-dom";
 import { useEffect, useState } from "react";
-import MenuModal from "../menu-modal/menu-modal";
 
 function RestaurantDetail(){
 
     var [restaurant, setRestaurant] = useState();
+    // 1. read the id form url params.
     const {id} = useParams();
-    var [show, setShow]=useState(false);
-    // this.setState({
-    //   show: false
-    // });
 
 
     useEffect(()=>{
+        // 2. call api to get restaurant details.
       fetch("http://localhost:4400/api/Restaurant/"+id)
           .then(res=> res.json())
           .then(
@@ -25,13 +22,10 @@ function RestaurantDetail(){
   }, []);
 
     return (
-        
+        // 3. show the data in component.
         <div className="container">
             <div className="banner"></div>
             <h3 className="name">{restaurant ? restaurant.name : ''}</h3>
-            <button className="btn btn-danger float-end" onClick={()=>{setShow(true)}}>Place Online Order</button>
-
-      <MenuModal show={show} />
 
  <ul className="nav nav-tabs">
   <li className="nav-item">

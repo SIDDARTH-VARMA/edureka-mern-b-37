@@ -1,10 +1,18 @@
 
 import './RestaurantCard.css';
+import { useNavigate } from "react-router-dom";
 
 function RestaurantCard(props){
 
+    const navigate = useNavigate();
+
+    const redirectToDetail = (id)=>{
+        navigate("restaurant/"+id);
+    }
+
     const restaurant = props.item;
     return(
+        <a href='' onClick={()=>{redirectToDetail(restaurant._id)}}>
         <div className="card">
             <div className="row">
                 <div className="col-md-3">
@@ -17,6 +25,7 @@ function RestaurantCard(props){
                 </div>
             </div>
         </div>
+        </a>
     )
 }
 
